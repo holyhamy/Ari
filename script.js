@@ -7,7 +7,7 @@ function validateConfig() {
 
     // Check required fields
     if (!config.ari) {
-        warnings.push("ari.");
+        warnings.push("ari");
         config.ari = "My Love";
     }
 
